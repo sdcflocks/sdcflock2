@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Slambooke</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Pace -->
+	<link href="css/pace.css" rel="stylesheet">
+	
+	<!-- Endless -->
+	<link href="css/endless.min.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+	
+  </head>
+
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+	<div id="overlay" class="transparent"></div>
+	
+	
+
+
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-6 fixed">
+			<div class="brand">
+				<span>Meetpi</span>
+			</div><!-- /brand -->
+			<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+
+			<ul class="nav-notification clearfix">
+			<li class="dropdown">
+					<li><a href="../app.html" class="main-link"><i class="fa fa-home fa-lg"></i></a></li>
+				</li>
+
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-bell fa-lg"></i>
+						<span class="notification-label bounceIn animation-delay4">7</span>
+					</a>
+					<ul class="dropdown-menu message dropdown-1">
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="central_university_college.html">
+								<img src="img/central.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Central University</strong>
+									<p class="no-margin">
+										# Miotso Prampram
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="knust.html">
+								<img src="img/slambooke.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>KNUST</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_ghana_legon.html">
+								<img src="img/slambooke.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Ghana Legon</strong>
+									<p class="no-margin">
+										# Legon
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Mines & Technology</strong>
+									<p class="no-margin">
+										# Tarkwa
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="../app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
+
+
+
+
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-tasks fa-lg"></i>
+						<span class="notification-label bounceIn animation-delay4">7</span>
+					</a>
+					<ul class="dropdown-menu notification dropdown-3">
+						<li><a href="#"> New updates pushed</a></li>					  
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-warning">
+									<i class="fa fa-bug fa-lg"></i>
+								</span>
+								<span class="m-left-xs">Server #2 not responding.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-plus"></i>
+								</span>
+								<span class="m-left-xs">New user registration.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-danger">
+									<i class="fa fa-bolt"></i>
+								</span>
+								<span class="m-left-xs">Application error.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-usd"></i>
+								</span>
+								<span class="m-left-xs">2 items sold.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-plus"></i>
+								</span>
+								<span class="m-left-xs">New user registration.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>
+						<li><a href="#">View all notifications</a></li>					  
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-envelope fa-lg"></i>
+						<span class="notification-label bounceIn animation-delay4">7</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="../blog.html" class="main-link"></i><strong>Blog</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../faq.html" class="main-link"></i><strong>Help</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../about.html" class="main-link"></i><strong>About</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../ninjas.html" class="main-link"></i><strong>Team</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../contact.html" class="main-link"></i><strong>Contact</strong></a></li>
+					</ul>
+		</div><!-- /top-nav-->
+
+		
+		<aside class="fixed skin-3">
+			<div class="sidebar-inner scrollable-sidebar">
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					
+				</div><!-- /size-toggle -->	
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="app.html">
+								<span class="menu-icon">
+									<i class="fa  fa-home fa-lg"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="blog.html">
+								<span class="menu-icon">
+									<i class="fa   fa-quote-right fa-lg"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-arrow-circle-o-down fa-lg"></i> 
+								</span>
+								<span class="text">
+									Updates
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-calendar fa-lg"></i> 
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="faq.html">
+								<span class="menu-icon">
+									<i class="fa  fa-question-circle fa-lg"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="ninjas.html">
+								<span class="menu-icon">
+									<i class="fa  fa-sitemap fa-lg"></i> 
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="slamooke.github.io">
+								<span class="menu-icon">
+									<i class="fa fa-github fa-lg"></i> 
+								</span>
+								<span class="text">
+									Developers
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>-->
+						<li>
+							<a href="contact.html">
+								<span class="menu-icon">
+									<i class="fa fa-phone fa-lg"></i> 
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="menu-icon">
+									<i class="fa  fa-info-circle  fa-lg"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+
+
+
+
+		<div id="main-container">
+		
+			<!--<div id="breadcrumb">
+				<ul class="breadcrumb">
+					 <li><a href="#"> A-D </a></li>
+					 <li><a href="#"> E-H </a></li>
+					 <li><a href="#"> I-L </a></li>
+					 <li><a href="#"> M-P </a></li>
+					 <li><a href="#"> Q-T </a></li>
+					 <li><a href="#"> U-X </a></li>
+					 <li><a href="#"> Y-Z </a></li> 
+				</ul>
+			</div><!-- /breadcrumb-->
+		
+
+		
+		
+		
+			<div class="padding-md">
+			<!--<h5 class=" fa fa-retweet"></a> Trending Universities from Ghana<span class="line"></span></h5>-->
+			<div class="row">
+			<li class="active bounceInDown">
+							<div class="col-md-4 col-sm-3">
+							<div class="panel panel-default panel-stat2 ">
+									<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/central.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Central University College
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Accra <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												<a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="university/central_university_college.html">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+									</div>
+								</div><!-- /panel -->
+
+
+								<div class="panel panel-default panel-stat2 ">
+								<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/legon.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  University Of Ghana Legon
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Accra <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												<a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="university/university_of_ghana_legon.html">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+										</div>
+								</div><!-- /panel -->
+
+
+						
+
+								<div class="panel panel-default panel-stat2 ">
+								<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/winneba.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  University Of Education Winneba
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Central Region <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+										</div>
+								</div><!-- /panel -->
+
+
+
+
+								<div class="panel panel-default panel-stat2 ">
+								<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/valleyview.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Valley View University
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Accra <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+										</div>
+								</div><!-- /panel -->
+
+
+
+
+								<div class="panel panel-default panel-stat2 ">
+								<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/greenhill.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Greenhill
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Accra <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+										</div>
+								</div><!-- /panel -->
+
+
+
+								<div class="panel panel-default panel-stat2 ">
+								<div class="panel-body">
+											<a class="pull-left avatar">
+											<img class="img-" alt="User Avatar" src="university/img/catholic_univerisity.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Catholic Univerisity
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Unknown <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+											</div>
+										</div>
+								</div><!-- /panel -->
+
+
+
+
+
+
+								</div>
+
+
+
+							
+						
+
+
+							<div class="col-md-4 col-sm-3">
+							<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+												<img class="img-" alt="User Avatar" src="university/img/knust.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Kwame Nkrumah University
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Kumasi <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												<a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="university/knust.html">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+												<img class="img-" alt="User Avatar" src="university/img/umat.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Uni Of Mines & Technology
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Tarkwa <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												<a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+												<img class="img-" alt="User Avatar" src="university/img/methodist.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  Methodist University
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Accra <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+
+
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+												<img class="img-" alt="User Avatar" src="university/img/ucc.gif"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  University of Cape Coast
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Cape Coast <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+								<img class="img-" alt="User Avatar" src="university/img/university_for_development_studies.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  University for Development Studies
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Tamale <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar">
+								<img class="img-" alt="User Avatar" src="university/img/african_virtual_university.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-12">
+												  African Virtual University
+												</strong>
+												<br>
+												<span class="grey">
+												   # Location: Unkown <a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success" href="#">View Profile</a>
+												<a class="btn btn-xs btn-default">Ghana, West Africa</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
+
+
+
+
+
+
+					</div><!-- /.col -->
+
+
+
+					<div class="col-md-3 col-sm-3">
+					
+					            <a class="twitter-timeline"  href="https://twitter.com/manfordbenjamin"  data-widget-id="432829155005059072">Tweets by @slambooke</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
+
+
+
+
+								</div>
+							</div>
+						</div><!-- /panel -->
+					</div><!-- /.col -->
+					
+					
+				
+				<!--<div class="padding-md">
+				<div class="row">
+					<h4 class="headline">Trending Senior High Schools<span class="line"></span></h4>
+						<div class="row">
+				<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/central_logo.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												 Saint Thomas Aquinas
+												</strong>
+												<br>
+												<span class="grey">
+												  # Cantonments Accra
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+								</div>
+							</div>
+						</div>
+					</div> 
+					
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/central_logo.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												  Accra High School
+												</strong>
+												<br>
+												<span class="grey">
+												   # Accra
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/central_logo.png"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												  Afia Kobi Ampem Girls
+												</strong>
+												<br>
+												<span class="grey">
+												   # Kumasi
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a><a class=" fa fa-star-o"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<!--<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/user.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												  Labone
+												</strong>
+												<br>
+												<span class="grey">
+												   # Cantonments
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class="btn btn-xs btn-success">Follow</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/user.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												  Osu Presec
+												</strong>
+												<br>
+												<span class="grey">
+												   # Osu
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class="btn btn-xs btn-success">Follow</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="panel panel-default panel-stat2 bg-">
+							<div class="panel-body">
+								<a class="pull-left avatar" href="#">
+												<img class="img-circle" alt="User Avatar" src="img/user.jpg"></img>
+											</a>
+											<div class="pull-left" style="margin-left:15px;">
+												<strong class="font-14">
+												  Aburi Girls
+												</strong>
+												<br>
+												<span class="grey">
+												   # Aburi 
+												</span>
+												<div class="seperator"></div>
+												<a class="btn btn-xs btn-success">View Profile</a>
+												<a class="btn btn-xs btn-success">Follow</a>
+								</div>
+							</div>
+						</div><
+					</div>-->
+				</div>
+
+
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- holder -->
+	<script src='js/uncompressed/holder.js'></script>
+	
+	<!-- Modernizr -->
+	<script src='js/modernizr.min.js'></script>
+	
+	<!-- Pace -->
+	<script src='js/pace.min.js'></script>
+	
+	<!-- Popup Overlay -->
+	<script src='js/jquery.popupoverlay.min.js'></script>
+	
+	<!-- Slimscroll -->
+	<script src='js/jquery.slimscroll.min.js'></script>
+	
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+	
+	<!-- Endless -->
+	<script src="js/endless.js"></script>
+	
+  </body>
+
+<!-- Mirrored from websdevp.com/Endless1.4/profile.html by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 20 Feb 2014 11:39:22 GMT -->
+</html>
